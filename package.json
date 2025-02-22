@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@discordjs/rest": "^2.4.2",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "keyv": "^5.2.3",
+    "pagination.djs": "^4.0.17"
+  }
+}

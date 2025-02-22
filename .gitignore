@@ -1,0 +1,4 @@
+*.local
+*.env
+discord_bot.db
+node_modules/*
