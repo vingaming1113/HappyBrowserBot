@@ -6,6 +6,6 @@ module.exports = {
         .setDescription('Testing command')
         .setContexts(0, 1, 2),
     async execute(interaction) {
-        await interaction.reply('Testing!');
+        await interaction.reply('Javascript SUCKS');
     },
 };
