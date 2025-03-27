@@ -54,24 +54,8 @@ module.exports = {
         .setContexts(0, 1, 2),
     async execute(interaction) {
         const predefinedNames = [
-            'JohnDoe', 'JaneSmith', 'TechGuru', 'CryptoKing', 'GameDev',
-            'A1 Ventures', 'Ace Enterprises', 'Acme Solutions', 'Advance Innovations', 'Apex Strategies', 
-            'Ascend Global', 'Atlas Dynamics', 'Aurora Holdings', 'Tech Titans', 'Code Collective',
-            'Innovate Hub', 'Byte Builders', 'Tech Trailblazers', 'NexGen', 'Olivia', 
-            'Emma', 'Charlotte', 'Amelia', 'Mary', 'Patricia', 'Linda', 'Barbara', 'Oliver', 'Liam', 'Noah',
-            'Google', 'Microsoft', 'Apple', 'Tesla', 'Amazon', 'Facebook', 'IBM', 'Oracle', 'Intel', 'Samsung',
-            'Sony', 'HP', 'Dell', 'Cisco', 'Adobe', 'Netflix', 'Disney', 'Nike', 'CocaCola', 'Pepsi',
-            'James', 'Sophia', 'Michael', 'Emily', 'William',
-            'LinkedIn', 'Twitter', 'Airbnb', 'Uber', 'Spotify',
-            'AwsonWaiting', 'KillBones', 'AaronMk', 'Vilageidiotx', 'JacobinOfAllTrades',
-            'David', 'Alex', 'Maria', 'Anna', 'Marco',
-            'CyberPunk2077', 'GamerX', 'NightOwl', 'TechWizard', 'DataMiner',
-            'PixelArtist', 'CloudSurfer', 'CodeMaster', 'NetRunner', 'ShadowWalker',
-            'Amelia', 'Harper', 'Evelyn', 'Abigail', 'Elizabeth',
-            'Mila', 'Ella', 'Avery', 'Sofia', 'Camila',
-            'Amalia', 'Johanna', 'Lyydia', 'Isabella', 'Elise',
-            'Aleksandr', 'Svetlana', 'Ivan', 'Tatyana', 'Yevgeny',
-            'Ahmed', 'Fatima', 'Mohamed', 'Nour', 'Salma'
+            'iptvboy_', 'viralpostdaily3', 'happyflower7458', '46officials', 'vingaming1113',
+            'araslmao_', '0xtiago_'
         ];
 
         const username = generateRandomUsername(predefinedNames);
