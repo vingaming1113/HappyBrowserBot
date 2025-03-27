@@ -12,12 +12,12 @@ module.exports = {
         const embed1 = new EmbedBuilder()
             .setColor(0x00FF00)
             .setTitle('@iptvboy')
-            .setDescription('send me and inbox');
+            .setDescription('"send me and inbox"');
 
         const embed2 = new EmbedBuilder()
             .setColor(0x0000FF)
             .setTitle('@happyflower7458')
-            .setDescription('[[FREE IPTV SERVICE, ONLY 4.99]]');
+            .setDescription('"[[FREE IPTV SERVICE, ONLY 4.99]]"');
 
         pagination.setEmbeds([embed1, embed2]);
         pagination.render();
