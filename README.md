@@ -1,7 +1,7 @@
 # Happy Phone Bot
 A Discord bot i made that is called "Happy Phone".
 
-This discord bot is made with Bun.JS v1.2.6.
+This discord bot is made with Bun.JS v1.2.7.
 
 Dependencies: || discord.js || discordjs/rest || dotenv (not really required, but the package.json has it so) || keyv || pagination.djs (i think that you need to run ```bun install``` to install all dependencies automatically).
 
