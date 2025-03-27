@@ -2,5 +2,3 @@
 *.env
 discord_bot.db
 node_modules/*
-bun.lock
-package.json
