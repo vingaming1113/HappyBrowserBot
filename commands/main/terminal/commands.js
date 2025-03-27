@@ -157,6 +157,10 @@ const installableCommands = {
   edit: {
     execute: async () => 'edit: Use the "edit-file" action (with the arg0 field specifying the filename) to use the edit command!',
   },
+
+  happyphone: {
+    execute: async () => 'Make it happy RN',
+  },
 };
 
 module.exports = {
