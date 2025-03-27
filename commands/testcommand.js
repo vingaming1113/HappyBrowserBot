@@ -3,7 +3,7 @@ const { SlashCommandBuilder } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('test')
+        .setName('testcommandplswork')
         .setDescription('Testing command')
         .setContexts(0, 1, 2),
     async execute(interaction) {
