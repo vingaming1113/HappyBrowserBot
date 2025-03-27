@@ -3,8 +3,8 @@ const { Pagination } = require('pagination.djs');
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('happyphone')
-        .setDescription('Make your phone happy')
+        .setName('happybrowser')
+        .setDescription('Make your browser happy')
         .setContexts(0, 1, 2),
     async execute(interaction) {
         const pagination = new Pagination(interaction, { ephemeral: false });
@@ -12,7 +12,7 @@ module.exports = {
         const embed1 = new EmbedBuilder()
             .setColor(0x00FF00)
             .setTitle('Happy Phone')
-            .setDescription('Make your phone happy. It needs to become happy.');
+            .setDescription('Make your browser happy. It needs to become happy.');
 
         const embed2 = new EmbedBuilder()
             .setColor(0x0000FF)
