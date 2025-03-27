@@ -55,11 +55,10 @@ module.exports = {
     async execute(interaction) {
         const predefinedNames = [
             'my metamask wallet got hacked i need new iptv asap and my uniswap and trust wallet got deleted pls help asap', 'trust wallet got hacked i need new iptv and sugar daddy', 'trust wallet got hacked i need new iptv and sugar daddy', 'I need help with my metamask wallet because i lost 485638 dollars from it please help', 'iptv wallet got hacked and youtube got copyright striked and banned and i lost all my money so i need sugardaddy',
-            'araslmao_', '0xtiago_'
         ];
 
         const username = generateRandomUsername(predefinedNames);
-        const iptv = `https://x.com/${username}`;
+        const iptv = `${username}`;
 
         await interaction.reply(`your iptv got hacked succesfully ${iptv}`);
     },
