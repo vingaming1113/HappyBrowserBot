@@ -16,4 +16,11 @@ db.run(`
   )
 `);
 
+db.run(`
+  CREATE TABLE IF NOT EXISTS user_network_configs (
+    user_id TEXT PRIMARY KEY,
+    config TEXT
+  )
+`);
+
 console.log("Database initialized successfully.");
