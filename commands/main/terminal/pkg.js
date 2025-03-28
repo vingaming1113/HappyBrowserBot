@@ -29,6 +29,10 @@ const packageDefinitions = {
   "happyphone": {
     stable: { minVersion: "1.0.0" },
     unstable: { minVersion: "1.0.0" }
+  },
+  "happybrowser": {
+    stable: { minVersion: "1.0.0" },
+    unstable: { minVersion: "1.0.0" }
   }
 };
 
