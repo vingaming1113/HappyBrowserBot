@@ -28,8 +28,8 @@ module.exports = {
         const embed4 = new EmbedBuilder()
         .setColor(0x0000FF)
         .setTitle('Chris TV 🕊️(@Chris_IP_TV1)')
-        .setDescription('"@Chris_IP_TV\1
- Great service, hooked me up with a free trial worked perfect. Great price, no complaints from me 🤌"');
+        .setDescription('\"@Chris_IP_TV\1
+ Great service, hooked me up with a free trial worked perfect. Great price, no complaints from me 🤌\"');
 
         pagination.setEmbeds([embed1, embed2, embed3, embed4]);
         pagination.render();
