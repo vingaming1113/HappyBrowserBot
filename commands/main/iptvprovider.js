@@ -27,7 +27,7 @@ module.exports = {
 
         const embed4 = new EmbedBuilder()
         .setColor(0x0000FF)
-        .setTitle(' Chris TV 🕊️(@Chris_IP_TV1) ')
+        .setTitle('Chris TV \🕊️(@Chris_IP_TV1) ')
         .setDescription('\"@Chris_IP_TV\1
  Great service, hooked me up with a free trial worked perfect. Great price, no complaints from me 🤌\"');
 
