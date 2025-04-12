@@ -38,8 +38,7 @@ module.exports = {
         const embed6 = new EmbedBuilder()
         .setColor(0x0000FF)
         .setTitle('"liam ly"')
-        .setDescription('"Super TV box, super discount price, please contact me if you need it"')
-        .files; ['https://cdn.discordapp.com/attachments/1230243655613419521/1360558728385925250/lArqTFS.mp4?ex=67fb8e8e&is=67fa3d0e&hm=cd387b452f8df260cdead32958fc63a0c3e953644c326eb20627420e6d085471&'];
+        .setDescription('"Super TV box, super discount price, please contact me if you need it"');
 
 
         pagination.setEmbeds([embed1, embed2, embed3, embed4, embed5, embed6]);
